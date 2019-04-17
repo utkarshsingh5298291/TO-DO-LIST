@@ -6,11 +6,11 @@
 }
 
 body{
-	max-width: 100%;
+	width: 100%;
   	height: auto;
 	background-image: url(chimene-gaspar-706651-unsplash.jpg);
 	background-repeat: no-repeat;
-	  background-size: contain;
+	  background-size: cover;
  	 border: 3px solid grey;
   
 }
