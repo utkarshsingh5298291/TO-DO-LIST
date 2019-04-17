@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TO DO List</title>
+	<title>TO DO Application</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="main.js"></script>
+	
 </head>
 <body>
-<div main>
-	<h1 style="font-size: 50px">"To Do List"</h1>
+<div id="container">
+	<div class="controls">
 
-	<form id="inputForm">
+		<h1 style="font-size: 50px">"To Do List"</h1>
+		<input type="text" id="input"><br>
+		<button type="button" id="add">Add Todo</button>
+		<button type="button" id="remove">Remove Todo</button>
+	</div>
+	<ul id="list">
+		<!-- <li class="mycheck">
+			<input type="checkbox" id="check">
+			<label>Go to Gym</label>
+		</li>
 
-		<input id="rawinput" type="text" placeholder="Enter your to do list">
+		<li class="mycheck">
+			<input type="checkbox" id="check">
+			<label>Record youtube video</label>
+		</li> -->
 
-		<br>
-        <br>
-
-		<button id="btn" type="button"  onclick="display()"><span>Get your List!</span></button>
-	 </form>
-
-
-	 <ol id="display">
-	 	
-	 </ol>
-
-
-
-
+	</ul>
 </div>
-
+<script src="main.js"></script>
 </body>
 </html>
