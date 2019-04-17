@@ -7,11 +7,11 @@
 
 body{
 	width: 100%;
-  	height: auto;
+  	height: 100%;
 	background-image: url(chimene-gaspar-706651-unsplash.jpg);
 	background-repeat: no-repeat;
 	  background-size: cover;
- 	 border: 3px solid grey;
+ 	
   
 }
 
@@ -91,5 +91,6 @@ ol{
 ul {
   list-style-type: none;
 	font-size:20px;
-	color:#00FFFF;
+	background-color:#00FFFF;
+	color:white;
 }
