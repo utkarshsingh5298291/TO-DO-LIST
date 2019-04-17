@@ -1,6 +1,7 @@
 *{
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  padding-left: 10%;
 
 }
 
@@ -8,7 +9,7 @@ body{
 	background-image: url(chimene-gaspar-706651-unsplash.jpg);
 	height: 100%;
 	background-repeat: no-repeat;
-    background-size: cover;
+  background-size: cover;
   
 }
 
@@ -80,4 +81,8 @@ button:hover span:after {
 }
 ol{
 	padding: 20%;
+}
+.visual{
+  opacity:1 !important;
+  border-radius:10px;
 }
